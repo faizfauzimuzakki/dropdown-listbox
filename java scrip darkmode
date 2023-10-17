@@ -1,0 +1,7 @@
+
+function darkmode() {
+  const mode = document.getElementById("mode");
+  const body = document.body;
+
+  body.classList.toggle("darkmode");
+}
